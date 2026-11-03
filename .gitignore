@@ -1,0 +1,37 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+bun.lock*
+
+# Testing
+/coverage
+
+# Next.js & build output
+/.next/
+.next/
+/.next-dev/
+.next-dev
+/dist/
+dist/
+/build/
+build/
+/out/
+out/
+
+# Misc
+.DS_Store
+*.pem
+
+# Local env & credentials
+.env*.local
+service-account.json
+gen-lang-client-*.json
+*firebase-adminsdk*.json
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
